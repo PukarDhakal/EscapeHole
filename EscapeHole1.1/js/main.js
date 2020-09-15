@@ -35,7 +35,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
     var scene = createScene();
     modifysettings();
-
+    // the change 
 
         function CreateGround() {
 
