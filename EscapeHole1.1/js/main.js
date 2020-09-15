@@ -56,7 +56,7 @@ window.addEventListener('DOMContentLoaded', function () {
         var camera = new BABYLON.UniversalCamera("uniCam", new BABYLON.Vector3(0, 0, 0), scene);
         camera.attachControl(canvas);
         camera.position.y = 50;
-
+        // new comment 
         camera.checkCollisions = true;
         camera.applyGravity = true;
         camera.keysUp.push('w'.charCodeAt(0)); // the attribute expect ASCII code of the letter, so i used javascript code to get ASCII Code
