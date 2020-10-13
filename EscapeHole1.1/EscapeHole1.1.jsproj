@@ -71,6 +71,7 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="images\flame.png" />
     <Content Include="images\Heightmap.png" />
     <Content Include="images\heightMap1 - Copy (2).jpg" />
     <Content Include="images\heightMap1 - Copy.jpg" />
@@ -93,11 +94,13 @@
     <Content Include="images\Wide310x150Logo.scale-200.png" />
     <Content Include="js\babylon.max.js" />
     <Content Include="js\babylonMax.js" />
+    <Content Include="js\cannon.js" />
     <Content Include="js\main.js" />
     <Content Include="css\default.css" />
     <None Include="EscapeHole1.1_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="tankModel\" />
     <Folder Include="Videos\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
